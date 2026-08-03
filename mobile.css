@@ -723,7 +723,7 @@ img{
 @media (max-width:768px){
 
   .navbar{
-    flex-direction:column;
+    flex-direction:row;
     gap:15px;
   }
 
@@ -740,4 +740,34 @@ img{
   .product-card{
     width:100%;
   }
+}
+@media (max-width:480px){
+
+.header,
+.icons,
+.navbar nav{
+    width:100%;
+}
+
+.navbar nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.mobile-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:15px;
+}
+
+.card{
+    width:100%;
+}
+
+.card img{
+    width:120px;
+    height:auto;
+    margin:auto;
+}
 }
