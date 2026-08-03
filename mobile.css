@@ -724,7 +724,7 @@ img{
 
   .navbar{
     flex-direction:row;
-    gap:15px;
+    gap:10px;
   }
 
   .menu{
@@ -780,7 +780,7 @@ img{
     justify-content:center;
     align-items:center;
     flex-wrap:nowrap;
-    gap:15px;
+    gap:10px;
     overflow-x:auto;
 }
 
