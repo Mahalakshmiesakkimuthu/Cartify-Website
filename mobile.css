@@ -700,3 +700,44 @@ body h1{
 }
 
 }
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.search-box{
+  width:100%;
+}
+
+@media (max-width:768px){
+
+  .navbar{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .products{
+    grid-template-columns:1fr;
+  }
+
+  .product-card{
+    width:100%;
+  }
+}
