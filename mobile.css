@@ -338,7 +338,7 @@
 @media(max-width:768px){
 
 .contact-box{
-    flex-direction:column;
+    flex-direction:row;
 }
 
 .contact-info,
@@ -366,7 +366,7 @@
 }
 
 .info-item{
-    flex-direction:column;
+    flex-direction:row;
     align-items:center;
     text-align:center;
 }
@@ -770,4 +770,29 @@ img{
     height:auto;
     margin:auto;
 }
+}
+
+@media (max-width:768px){
+
+.navbar nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:nowrap;
+    gap:15px;
+    overflow-x:auto;
+}
+
+.navbar nav a{
+    white-space:nowrap;
+}
+}
+
+.navbar nav{
+    gap:8px;
+}
+
+.navbar nav a{
+    font-size:14px;
 }
